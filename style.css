@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(112,125,235);
+  height: 100vh;
+  display: flex;
+}
+.login{
+  height: 480px;
+  width: 260px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+.login-header{
+  color: black;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.login-top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80px;
+  height: 60px;
+}
+.login-cards{
+ display: flex;
+  align-items: center;
+}
+.login-card{
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+font-size: 15px;
+background: rgb(234,234,239);
+ color: black;
+ border-radius: 3px;
+ width: 70px;
+ height: 15px;
+ border-bottom-left-radius: 3px;
+ border-bottom-right-radius: 3px;
+ border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+}
+.login-card:last-child{
+  margin-left: 15px;
+}
+
+.login-card img{
+ 
+  height: 20px;
+  width: 30px;
+  display: inline-block;
+}
+.login-fields{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 207px;
+  margin-top: 50px;
+}
+.login-email{
+  display: flex;
+  flex-direction: column;
+  width: 2rem 0px;
+}
+
+.login-password{
+  display: flex;
+  flex-direction: column;
+}
+.login-email label{
+  margin: 15px 0px;
+}
+.login-password label {
+  margin: 15px 0px;
+}
+.login-email input{
+  padding: 15px 10px;
+}
+
+.login-password input{
+  padding: 15px 10px;
+}
+.fa fa-eye-slash{
+  font-size: 60px;
+}
+.login-or{
+  margin-top: 20px;
+  margin-bottom: 2#F9FAFF0px;
+  color: black;
+  font-size: 15px;
+  align-items: center;
+}
+.login-button{
+  padding: 15px 10px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 0px
+  width: 207px;
+  height: 46px;
+  background-color: rgb(112,125,235);
+  color: white;
+  border-radius: 10px;
+}
+login-fields:hover{
+  color: red;
+}
+.login-signup{
+color: rgb(112,125,235);
+border: none;
+
+}
+.login-account {
+  margin-bottom: 20px;
+}
+
