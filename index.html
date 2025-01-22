@@ -25,21 +25,22 @@
       </div>
       <span class="login-or">or</span>
     </div>
+    <form autocomplete="off">
     <div class="login-fields">
      <div class="login-email">
-      <label for="">Email</label>
-      <input type="text" 
-      placeholder="Enter email address">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email"  placeholder="Enter email address" required>
      </div>
   <div class="login-password">
-   <label for="">Password </label>
-  <input type="password" 
-   placeholder="Enter password" />
-  <i class="fa fa-eye-slash"></i>
+   <label for="password">Password</label>
+  <input type="password" id="password" name="password" placeholder="Enter password" required>
    </div>
+      <div>
      <button type="submit" class="login-button"> LOG IN</button>
     </div>
-    <h5><span class="login-account">Don't have an account? <span class="login-signup">sign up</span></span></h5>
+    <h5 class="signup"><span class="login-account">Don't have an account? <span class="login-signup"><a href="https://www.google.">sign up</a></span></span></h5>
+  </form>
   </div>
+
 </body>
 </html>
